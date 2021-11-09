@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden; 
+}
+.navbar-small-screen-brand {
+	display: none; 		
+}
+
+#hero {
+	background-image: url("./Assets/images/bg-hero.jpg");
+	background-size: cover;
+	height: 18rem;
+	width: 100vw;
+}
+.hero {
+	position: relative;
+	white-space: nowrap;
+}
+
+.hero-section i {
+	color: #fb6332;
+}
+.hero-section h5 {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.5rem;
+	text-shadow: 1px 2px rgb(119, 118, 118);
+}
+
+.hero-section {
+	color: white;
+	width: 100%;
+	position: relative;
+}
+
+.hero-left {
+	margin: auto;
+	width: 20rem; 
+	height: 100%; 
+}
+
+.hero-left-text {
+	font-size: 0.75rem; 
+	
+	width: 50%; 
+}
+
+
+
+.mid-section {
+	margin: 2rem;
+	height: 2rem;
+	background-color: #0077b9;
+	padding-bottom: 1rem;
+}
+
+.mid-section-header {
+	color: white;
+	font-weight: 500;
+	margin: auto;
+}
+
+.mid-section-pill {
+	background-color: #eeebe8;
+	color: black;
+	height: 1.5rem;
+}
+
+.pill-icon {
+	color: #07ade1;
+}
+
+.mid-section-footnote {
+	font-size: 0.5rem; 
+	white-space: nowrap;
+}
+
+
+
+.bottom-section {
+	padding-top: 4rem;
+	
+
+}
+
+.bottom-section-box {
+	border: 1px solid rgb(214, 144, 12);
+	margin: 1rem ;
+	height: 8rem;
+}
+
+.bottom-section-top-text {
+	color: #fb6332;
+	font-weight: 700;
+	font-size: 0.9rem;
+	white-space: nowrap; 
+}
+
+.bottom-section-bottom-text {
+	font-size: calc(80% + 1vw + 1vh);
+	white-space: nowrap; 
+
+}
+.bottom-section hr {
+	margin: auto;
+	margin-top: 10px; 
+	width: calc(80% + 1vw + 1vh);
+	
+}
+
+form {
+	background-color: white;
+	position: absolute;
+	padding: 1rem;
+	text-align: center;
+	border-radius: 5px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -55%);
+	max-width: 16rem;
+	max-height: 18rem;
+}
+
+form button {
+	width: 100%;
+	padding: 5px;
+	color: white;
+	background-color: #fb6332;
+	border: 1px solid #fb6332;
+}
+
+.hr {
+	border-bottom: 1px solid black;
+	margin-top: 10rem;
+}
+
+footer {
+	background-color: #0077b9;
+	text-align: center;
+	color: white;
+	font-size: 0.75rem;
+}
+
+@media screen and (max-width: 768px){
+
+	.hero-left {
+		display: none; 
+	}
+	form{
+		position: relative; 
+		margin-bottom: 2rem; 
+	}
+	.navbar-brand {
+		display: none; 
+	}
+	.navbar-small-screen-brand {
+		display: block; 
+		margin: auto; 
+	}
+	.mid-section-header {
+		background-color: #0077b9;
+	}
+	.hr {
+		margin-top: 20rem; 
+	}
+	
+	.pill-container {
+		margin-left: -2rem; 
+	}
+}
