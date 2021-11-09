@@ -1,12 +1,30 @@
 Question #1
 What are some ways to make websites faster? (Name as many different techniques as you can)
 
+-Minify your JS and CSS to remove whitespace, comments, shorten hex codes etc. 
+-Optimize your images using local or online resolution / compression tools. Utilize lazy loading to 
+reduce initial page load time. 
+-Reduce the number of HTTP requests on your site. 
+-Upgrade your hosting plan to have access to more dedicated resources like bandwidth, RAM and CPU usage. 
+-Store any large files externally
+-Reduce the number of plugins if possible. Use CDNs where possible. 
+-Cache webpages in user browser for returning visitors. 
+
 Question #2
 When would you use a NoSQL solution instead of SQL?
+SQL is good if you want to ensure ACID compliance, need to work with complex queries, or if you are 
+creating a site that doesn't anticipate many changes or increased growth. SQL is ideal for 
+applications that need multi-row data like accounting / inventory systems. 
+NoSQL is a good choice if you have a flexible schema design and want a database that scales easily 
+with your business. NoSQL is ideal for CMS sites, Social Media and Mobile applications because of it's 
+ability to rapidly scale and deliver information with lower latency. 
 
 Question #3
 What type of experience have you had working with e-commerce sites?
 
+My wife and I use Mercari and Poshmark to sell items that we have refurbished. I am familiar with the layout 
+and usage and also the different methods make available to their users such as promoting items. I have also read through 
+the docs for Stripe and Paypal for a project I was planning on working on. 
 
 Task 1
 Quickly Clone page
@@ -54,6 +72,7 @@ You are free to choose the ones that could show your skills.
 Be creative!
 
 
-Once you're done please send back your task projects and answers to the questions. We will review task projects locally
+Once you're done please send back your task projects and answers to the questions. 
+We will review task projects locally
 
 

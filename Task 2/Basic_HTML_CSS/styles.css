@@ -62,11 +62,17 @@ body, html {
 	font-weight: 500;
 	margin: auto;
 }
+#mid-section-img {
+	width: 20rem;  
+}
+
+
 
 .mid-section-pill {
 	background-color: #eeebe8;
 	color: black;
 	height: 1.5rem;
+	
 }
 
 .pill-icon {
@@ -144,7 +150,7 @@ footer {
 	font-size: 0.75rem;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 780px){
 
 	.hero-left {
 		display: none; 
@@ -163,11 +169,30 @@ footer {
 	.mid-section-header {
 		background-color: #0077b9;
 	}
+	#mid-section-img {
+		width: 15rem; 
+		height: auto; 
+		padding-right: 3rem; 
+	}
 	.hr {
-		margin-top: 20rem; 
+		margin-top: 10rem; 
 	}
 	
 	.pill-container {
 		margin-left: -2rem; 
+	}
+	#form-header {
+		font-size: 0.8rem;
+		font-weight: 700;  
+		
+	}
+	form {
+		width: 20rem; 
+	}
+}
+
+@media screen and (max-width: 420px){
+	.hr {
+		margin-top:20rem; 
 	}
 }
