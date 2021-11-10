@@ -1,6 +1,10 @@
+# Deployed Site: 
+
+https://savory-stitch.surge.sh/artist/ledo
+
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In directory Task 3 run npm install 
 
 ## Available Scripts
 
